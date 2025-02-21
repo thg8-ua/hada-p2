@@ -10,6 +10,12 @@ namespace Hada
     {
         public Dictionary<Coordenada, String> CoordenadasBarco { get;}
         public string Nombre { get; }
-        public int NumDatos { get; }
+        public int NumDanyos { get; }
+
+        public Barco(string nombre, int longitud, char orientacion, Coordenada coordenadaInicio)
+        {
+            Nombre = nombre;
+
+        }
     }
 }
