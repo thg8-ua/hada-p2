@@ -8,6 +8,7 @@ namespace Hada
 {
     internal class Coordenada
     {
+        // Test comment
         private int _fila;
         private int _columna;
 
