@@ -8,6 +8,7 @@ namespace Hada
 {
     internal class Barco
     {
+        //test
         public Dictionary<Coordenada, String> CoordenadasBarco { get;}
         public string Nombre { get; }
         public int NumDatos { get; }
